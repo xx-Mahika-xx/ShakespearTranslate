@@ -1,12 +1,81 @@
+:root{
+    --primary-color: rgb(245, 224, 180);
+    --light-blue: #748dc0;
+    --full-black: black;
+    --proper-white: white;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url("	https://i.pinimg.com/564x/2b/5a/7a/2b5a7a0ad4de8a9b792086da1af43d7e.jpg");
+}
 #txtarea{
     width:90%;
-    display:block;
+    height: 25vh;
+    background-color: white;
     margin:1rem;
     padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(236, 227, 227, 0.062);
 }
 #output{
     width:90%;
-    display:block;
+    height: 25vh;
+    background-color: white;
     margin:1rem;
     padding: 1rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(236, 227, 227, 0.062);
+}
+
+.header{
+    display:block;
+    padding: 2rem;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 150%;
+    text-align: center;
+}
+
+
+.link {
+    text-decoration: none;
+}
+
+.footer-link {
+    color: blanchedalmond;;
+}
+
+#btn-translate{
+    border: 2px solid black;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-size: 140%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:1rem;
+}
+
+.footer{
+    display:block;
+    padding: 2rem;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 120%;
+    text-align: center;
 }

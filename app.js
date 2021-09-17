@@ -3,7 +3,7 @@ console.log("Script works")
 var btnTranslate= document.querySelector("#btn-translate");
 var txtInput=document.querySelector("#txtarea");
 var outputDiv=document.querySelector("#output");
-var serverURL = "https://api.funtranslations.com/translate/shakespeare.json"
+var serverURL = "	https://api.funtranslations.com/translate/oldenglish.json"
 function errorHandler(error){
     console.log("Error Occured",error);
     alert("Oops! Something went wrong. Try again later.");
