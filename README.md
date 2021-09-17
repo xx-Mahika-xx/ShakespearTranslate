@@ -1,0 +1,1 @@
+This is a VanillaJS program that translates English into Shakespearean Language.
